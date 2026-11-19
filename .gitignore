@@ -1,0 +1,30 @@
+# User recordings, render packs and generated analysis
+*.wav
+*.aif
+*.aiff
+*.flac
+*.mp3
+*.ogg
+*.m4a
+renders/
+inputs/
+samples/
+experiments/**/renders/
+experiments/**/inputs/
+*.juce
+# Build artifacts
+build/
+build-*/
+cmake-build-*/
+DerivedData/
+*.component
+*.vst3
+*.aaxplugin
+*.app
+*.dSYM/
+*.pkg
+*.exe
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
